@@ -1,0 +1,23 @@
+{
+  //关闭eslint
+  "eslint.enable": false,
+  //配置tslint
+  "tslint.enable": true,
+  "tslint.configFile": "./tslint.json",
+  "tslint.nodePath": "./node_modules",
+  //用'prettier-tslint'代替'prettier'
+  "prettier.tslintIntegration": true,
+  //不显示拓展建议
+  "extensions.ignoreRecommendations": true,
+  //vue文件的format支持
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  //html部分的格式化
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    //强制分行显示属性
+    "wrap_attributes": "force-aligned"
+  }
+}
