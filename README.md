@@ -1,5 +1,9 @@
 # vue-first-demo
 
+## 一个基于vue的单页面应用练习
+
+## vue2+cli3+ts+router+vuex
+
 ## Project setup
 ```
 npm install
